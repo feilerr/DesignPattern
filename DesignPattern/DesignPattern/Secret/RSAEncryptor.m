@@ -33,7 +33,15 @@
 -(void) loadPublicKeyFromFile: (NSString*) derFilePath
 {
     NSData *derData = [[NSData alloc] initWithContentsOfFile:derFilePath];
+    NSString *result  =[[ NSString alloc] initWithData:derData encoding:NSUTF8StringEncoding];
+    NSLog(@"%@",result);
     [self loadPublicKeyFromData: derData];
+}
+
+-(void) loadPublicKeyFromString: (NSString*) strings
+{
+    NSData *data = [strings dataUsingEncoding:NSUTF8StringEncoding];
+    [self loadPublicKeyFromData: data];
 }
 
 -(void) loadPublicKeyFromData: (NSData*) derData

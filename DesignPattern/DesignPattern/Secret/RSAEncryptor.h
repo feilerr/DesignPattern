@@ -10,6 +10,8 @@
 
 @interface RSAEncryptor : NSObject
 
+-(void) loadPublicKeyFromString: (NSString*) strings;
+
 #pragma mark - Instance Methods
 /**
  * @brief  获取公钥从文件中获取

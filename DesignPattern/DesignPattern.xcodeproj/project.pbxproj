@@ -38,6 +38,8 @@
 		CBD3BD901BE8648D00522908 /* RSAEncryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD3BD8D1BE8648D00522908 /* RSAEncryptor.m */; };
 		CBEB983B1BE0A60F00CC513F /* IteratorImplement.m in Sources */ = {isa = PBXBuildFile; fileRef = CBEB983A1BE0A60F00CC513F /* IteratorImplement.m */; };
 		CBEB983E1BE0A6A600CC513F /* IteratorItem.m in Sources */ = {isa = PBXBuildFile; fileRef = CBEB983D1BE0A6A600CC513F /* IteratorItem.m */; };
+		CBEDDBC31BF1AD7B008864AC /* private_key.pem in Resources */ = {isa = PBXBuildFile; fileRef = CBEDDBC11BF1AD7B008864AC /* private_key.pem */; };
+		CBEDDBC41BF1AD7B008864AC /* public_key.pem in Resources */ = {isa = PBXBuildFile; fileRef = CBEDDBC21BF1AD7B008864AC /* public_key.pem */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -106,6 +108,8 @@
 		CBEB983A1BE0A60F00CC513F /* IteratorImplement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IteratorImplement.m; sourceTree = "<group>"; };
 		CBEB983C1BE0A6A600CC513F /* IteratorItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IteratorItem.h; sourceTree = "<group>"; };
 		CBEB983D1BE0A6A600CC513F /* IteratorItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IteratorItem.m; sourceTree = "<group>"; };
+		CBEDDBC11BF1AD7B008864AC /* private_key.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = private_key.pem; sourceTree = "<group>"; };
+		CBEDDBC21BF1AD7B008864AC /* public_key.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = public_key.pem; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -261,6 +265,8 @@
 		CBC8A77A1BE359F600E484DB /* Secret */ = {
 			isa = PBXGroup;
 			children = (
+				CBEDDBC11BF1AD7B008864AC /* private_key.pem */,
+				CBEDDBC21BF1AD7B008864AC /* public_key.pem */,
 				CBD3BD8A1BE8648D00522908 /* private_key.p12 */,
 				CBD3BD8B1BE8648D00522908 /* public_key.der */,
 				CBD3BD8C1BE8648D00522908 /* RSAEncryptor.h */,
@@ -346,6 +352,8 @@
 			files = (
 				CBC73D981BDF274700DF96E6 /* test.html in Resources */,
 				CB882B5A1BD9DCED001A83FE /* LaunchScreen.storyboard in Resources */,
+				CBEDDBC31BF1AD7B008864AC /* private_key.pem in Resources */,
+				CBEDDBC41BF1AD7B008864AC /* public_key.pem in Resources */,
 				CBD3BD8F1BE8648D00522908 /* public_key.der in Resources */,
 				CBD3BD8E1BE8648D00522908 /* private_key.p12 in Resources */,
 				CB882B571BD9DCED001A83FE /* Assets.xcassets in Resources */,
