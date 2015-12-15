@@ -229,7 +229,7 @@
     NSString *privateKey = @"-----BEGIN PRIVATE KEY-----MIICdwIBADANBgkqhkiG9w0BAQEFAASCAmEwggJdAgEAAoGBAJ9FN1w8gfXSBP1/fWtC4gicvB7t+XZ20Qn3eBOaMT1zYf6QtUQ1aAQKIlVDmyidA1/BOgwp07Rvc6V/imAEp4tOGtrP8vedgliVuqMcLeNONSdlzSW66alcayjHrb4+5IYGV9vzMk7qGLHgZX++HJBUKkb1piqATvPJNFlhf1vJAgMBAAECgYA736xhG0oL3EkN9yhx8zG/5RP/WJzoQOByq7pTPCr4m/Ch30qVerJAmoKvpPumN+h1zdEBk5PHiAJkm96sG/PTndEfkZrAJ2hwSBqptcABYk6ED70gRTQ1S53tyQXIOSjRBcugY/21qeswS3nMyq3xDEPKXpdyKPeaTyuK86AEkQJBAM1M7p1lfzEKjNw17SDMLnca/8pBcA0EEcyvtaQpRvaLn61eQQnnPdpvHamkRBcOvgCAkfwa1uboru0QdXii/gUCQQDGmkP+KJPX9JVCrbRt7wKyIemyNM+J6y1ZBZ2bVCf9jacCQaSkIWnIR1S9UM+1CFE30So2CA0CfCDmQy+y7A31AkB8cGFB7j+GTkrLP7SX6KtRboAU7E0q1oijdO24r3xf/Imw4Cy0AAIx4KAuL29GOp1YWJYkJXCVTfyZnRxXHxSxAkEAvO0zkSv4uI8rDmtAIPQllF8+eRBT/deDJBR7ga/k+wctwK/Bd4Fxp9xzeETP0l8/I+IOTagK+Dos8d8oGQUFoQJBAI4NwpfoMFaLJXGY9ok45wXrcqkJgM+SN6i8hQeujXESVHYatAIL/1DgLi+u46EFD69fw0w+c7o0HLlMsYPAzJw=-----END PRIVATE KEY-----";
 
     
-    NSString *originString = @"hello world!";
+    NSString *originString = @"11111111";
     NSString *encWithPubKey;
     NSString *decWithPrivKey;
     NSString *encWithPrivKey;
@@ -243,6 +243,9 @@
     // Demo: decrypt with private key
     decWithPrivKey = [RSA decryptString:encWithPubKey privateKey:privateKey];
     NSLog(@"私钥解密: %@", decWithPrivKey);
+    
+//    dRFbA2tvTmj4ompjBtmAnR3yWo+8WahP1ayRysg1hfEF90aFEOlrsU20pfixbmPb3n+2TxsQ98TEE1zYkh4zi+CuyYAkIkwWouM4Rjn7pzFCJdsKEYIwiqV/5ZFE7wiA3DUjwcukbRJ0b0e76EcCl9WGLK9Ca9KHnXP7/ANQrBM=
+//    Cipher text: dRFbA2tvTmj4ompjBtmAnR3yWo+8WahP1ayRysg1hfEF90aFEOlrsU20pfixbmPb3n+2TxsQ98TEE1zYkh4zi+CuyYAkIkwWouM4Rjn7pzFCJdsKEYIwiqV/5ZFE7wiA3DUjwcukbRJ0b0e76EcCl9WGLK9Ca9KHnXP7/ANQrBM=
     
 //    // by PHP
 //    encWithPubKey = @"p1i8zlbzjy9e8PI0hsmVZUNLNy0jr7KpbsDoKek1FvHpnPXkk1W+91mizj6aD+7n7UkE2G5OrrmqaQSQzMEXOv+zgyGQH0x1AlbCYg0YAFdoOiOOUuNS4Gb9ltFmjy9pGf5mqCcr33h14Ln3l5MZGylyoSmIDpooDCk2t/BJHnU=";
